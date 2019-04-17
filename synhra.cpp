@@ -14,6 +14,7 @@ bool checkArguments(int argc, char* argv[], error &error)
 	int a;
 	int b;
 	int c;
+	a = 14;
     if(argc < 3) // Нет одного и двух входных файлов
     {
         error.type = errorType::noFileIn;
