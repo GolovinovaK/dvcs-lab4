@@ -12,6 +12,7 @@ void qError(QString error)
 bool checkArguments(int argc, char* argv[], error &error)
 {
 	int a;
+	int b;
     if(argc < 3) // Нет одного и двух входных файлов
     {
         error.type = errorType::noFileIn;
