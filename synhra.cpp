@@ -30,6 +30,7 @@ bool checkArguments(int argc, char* argv[], error &error)
 void matchModes(const QMap<int, QString> &match, const QVector<int> &chain, QVector<QString> &mappedModes)
 {
 	int a;
+	int b;
     QVector<QString> openModes; // Список открытых режимов в порядке открытия
     QString startMode = "*"; // Начальный режим, в который приходим по завершении всех режимов
     for(QVector<int>::const_iterator chainIt = chain.begin(); chainIt != chain.end(); chainIt++)
