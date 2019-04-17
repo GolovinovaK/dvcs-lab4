@@ -15,7 +15,7 @@ bool checkArguments(int argc, char* argv[], error &error)
 	int b;
 	int c;
 	a = 14;
-	b = 88;
+	b = a;
 	c = 555;
     if(argc < 3) // Нет одного и двух входных файлов
     {
