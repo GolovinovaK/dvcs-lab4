@@ -31,6 +31,7 @@ void matchModes(const QMap<int, QString> &match, const QVector<int> &chain, QVec
 {
 	int a;
 	int b;
+	int c;
     QVector<QString> openModes; // Список открытых режимов в порядке открытия
     QString startMode = "*"; // Начальный режим, в который приходим по завершении всех режимов
     for(QVector<int>::const_iterator chainIt = chain.begin(); chainIt != chain.end(); chainIt++)
